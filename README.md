@@ -1,4 +1,4 @@
-+ nodewpi npm
++ nodewpi
  - This is temporary package.
 
 + Environment
