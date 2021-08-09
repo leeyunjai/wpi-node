@@ -1,8 +1,8 @@
 {
-  "name": "wiring-pi-node",
+  "name": "wpi-node",
   "version": "0.9.0",
   "description": "Node.js Addons wpi for wiringpi 2.6",
-  "main": "wiring-pi-node.js",
+  "main": "wpi-node.js",
   "dependencies": {
     "bindings": "~1.2.1",
     "node-addon-api": "^1.0.0"
@@ -10,11 +10,11 @@
   "scripts": {
     "install": "./install.sh && node-gyp rebuild"
   },
-  "repository":{
+  "repository": {
     "type": "git",
-    "url": "git+https://github.com/leeyunjai/wiring-pi-node.git"  
+    "url": "git+https://github.com/leeyunjai/wpi-node.git"
   },
-  "keywords":[
+  "keywords": [
     "wiring-pi",
     "wiringpi",
     "raspberrypi",
@@ -25,8 +25,8 @@
   "author": "Lee Yunjai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leeyunjai/wiring-pi-node/issues"
+    "url": "https://github.com/leeyunjai/wpi-node/issues"
   },
-  "homepage": "https://github.com/leeyunjai/wiring-pi-node#readme",
+  "homepage": "https://github.com/leeyunjai/wpi-node#readme",
   "gypfile": true
 }

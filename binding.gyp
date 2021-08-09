@@ -1,10 +1,10 @@
 {
   "targets": [
     {
-      "target_name": "wiring-pi-node",
+      "target_name": "wpi-node",
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
-      "sources": [ "nodewpi.cc" ],
+      "sources": [ "wpi-node.cc" ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")",
         'WiringPi/wiringPi',

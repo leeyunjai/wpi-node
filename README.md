@@ -6,7 +6,7 @@
   - nodejs12,14 ...
 
 + Install
-  - npm install wiring-pi-node --unsafe-perm
+  - npm install wpi-node --unsafe-perm
 
 + Support functions
   - wpi.setup() : only wpi
