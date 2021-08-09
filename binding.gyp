@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "nodewpi",
+      "target_name": "wiring-pi-node",
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "sources": [ "nodewpi.cc" ],

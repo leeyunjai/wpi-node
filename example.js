@@ -1,4 +1,4 @@
-const wpi = require('./nodewpi.js')
+const wpi = require('./wiring-pi-node.js')
 
 wpi.setup('wpi')
 
