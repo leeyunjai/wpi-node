@@ -1,4 +1,4 @@
-const _wpi = require('bindings')('wiring-pi-node.node')
+const _wpi = require('bindings')('wpi-node.node')
 
 function $(){
 }
